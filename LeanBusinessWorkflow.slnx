@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LeanBusinessWorkflow.AI/LeanBusinessWorkflow.AI.csproj" />
+    <Project Path="src/LeanBusinessWorkflow.Console/LeanBusinessWorkflow.Console.csproj" />
+    <Project Path="src/LeanBusinessWorkflow.Core/LeanBusinessWorkflow.Core.csproj" />
+    <Project Path="src/LeanBusinessWorkflow.Web/LeanBusinessWorkflow.Web.csproj" />
+  </Folder>
+</Solution>

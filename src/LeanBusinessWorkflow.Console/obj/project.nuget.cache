@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "dgSpecHash": "fyoZiHWTybk=",
+  "success": true,
+  "projectFilePath": "E:\\Hermes_Working\\LeanBusinessWorkflow\\src\\LeanBusinessWorkflow.Console\\LeanBusinessWorkflow.Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shara\\.nuget\\packages\\azure.ai.openai\\2.2.0-beta.4\\azure.ai.openai.2.2.0-beta.4.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.4.0-preview.1.25207.5\\microsoft.extensions.ai.abstractions.9.4.0-preview.1.25207.5.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.3\\microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\microsoft.extensions.vectordata.abstractions\\9.0.0-preview.1.25229.1\\microsoft.extensions.vectordata.abstractions.9.0.0-preview.1.25229.1.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\microsoft.semantickernel\\1.48.0\\microsoft.semantickernel.1.48.0.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\microsoft.semantickernel.abstractions\\1.48.0\\microsoft.semantickernel.abstractions.1.48.0.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\microsoft.semantickernel.connectors.azureopenai\\1.48.0\\microsoft.semantickernel.connectors.azureopenai.1.48.0.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\microsoft.semantickernel.connectors.openai\\1.48.0\\microsoft.semantickernel.connectors.openai.1.48.0.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\microsoft.semantickernel.core\\1.48.0\\microsoft.semantickernel.core.1.48.0.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\openai\\2.2.0-beta.4\\openai.2.2.0-beta.4.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\system.clientmodel\\1.4.0-beta.1\\system.clientmodel.1.4.0-beta.1.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\system.memory.data\\6.0.1\\system.memory.data.6.0.1.nupkg.sha512",
+    "C:\\Users\\shara\\.nuget\\packages\\system.numerics.tensors\\9.0.0\\system.numerics.tensors.9.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "message": "Package 'Microsoft.SemanticKernel.Core' 1.48.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-2ww3-72rp-wpp4",
+      "projectPath": "E:\\Hermes_Working\\LeanBusinessWorkflow\\src\\LeanBusinessWorkflow.Console\\LeanBusinessWorkflow.Console.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\Hermes_Working\\LeanBusinessWorkflow\\src\\LeanBusinessWorkflow.Console\\LeanBusinessWorkflow.Console.csproj",
+      "libraryId": "Microsoft.SemanticKernel.Core",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

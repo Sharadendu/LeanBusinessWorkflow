@@ -1,0 +1,78 @@
+@page "/chat"
+@rendermode InteractiveServer
+@using LeanBusinessWorkflow.AI.Services
+@using Microsoft.SemanticKernel.ChatCompletion
+@inject ChatService ChatService
+
+<PageTitle>AI Chat</PageTitle>
+
+<div class="chat-container">
+    <h1>Lean Business Workflow - AI Chat</h1>
+    
+    <div class="chat-window">
+        @foreach (var message in ChatService.GetHistory())
+        {
+            <div class="message @(message.Role == AuthorRole.User ? "user" : "assistant")">
+                <strong>@message.Role:</strong> @message.Content
+            </div>
+        }
+    </div>
+
+    <div class="input-area">
+        <input @bind="userInput" placeholder="Type your message..." @onkeyup="HandleKeyPress" />
+        <button @onclick="SendMessage" disabled="@isSending">Send</button>
+        <button @onclick="ClearChat" class="secondary">Clear</button>
+    </div>
+</div>
+
+<style>
+    .chat-container { max-width: 800px; margin: 2rem auto; }
+    .chat-window { 
+        height: 500px; 
+        overflow-y: auto; 
+        border: 1px solid #ccc; 
+        padding: 1rem; 
+        margin-bottom: 1rem;
+        background: #f9f9f9;
+    }
+    .message { margin-bottom: 1rem; padding: 0.75rem; border-radius: 8px; }
+    .user { background: #0078d4; color: white; text-align: right; }
+    .assistant { background: #e0e0e0; }
+    .input-area { display: flex; gap: 0.5rem; }
+    input { flex: 1; padding: 0.75rem; font-size: 1rem; }
+    button { padding: 0.75rem 1.5rem; }
+    .secondary { background: #666; color: white; }
+</style>
+
+@code {
+    private string userInput = "";
+    private bool isSending = false;
+
+    private async Task SendMessage()
+    {
+        if (string.IsNullOrWhiteSpace(userInput)) return;
+
+        isSending = true;
+        var message = userInput;
+        userInput = "";
+
+        await ChatService.SendMessageAsync(message);
+        StateHasChanged();
+
+        isSending = false;
+    }
+
+    private async Task HandleKeyPress(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter" && !isSending)
+        {
+            await SendMessage();
+        }
+    }
+
+    private void ClearChat()
+    {
+        ChatService.ClearHistory();
+        StateHasChanged();
+    }
+}

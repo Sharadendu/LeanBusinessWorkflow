@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zrT0L3lM7zM=",
+  "success": true,
+  "projectFilePath": "E:\\Hermes_Working\\LeanBusinessWorkflow\\src\\LeanBusinessWorkflow.Core\\LeanBusinessWorkflow.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shara\\.nuget\\packages\\yamldotnet\\16.3.0\\yamldotnet.16.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

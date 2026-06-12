@@ -1,0 +1,13 @@
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\bin\Debug\net10.0\LeanBusinessWorkflow.Core.deps.json
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\bin\Debug\net10.0\LeanBusinessWorkflow.Core.dll
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\bin\Debug\net10.0\LeanBusinessWorkflow.Core.pdb
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\obj\Debug\net10.0\LeanBusinessWorkflow.Core.csproj.AssemblyReference.cache
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\obj\Debug\net10.0\LeanBusinessWorkflow.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\obj\Debug\net10.0\LeanBusinessWorkflow.Core.AssemblyInfoInputs.cache
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\obj\Debug\net10.0\LeanBusinessWorkflow.Core.AssemblyInfo.cs
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\obj\Debug\net10.0\LeanBusinessWorkflow.Core.csproj.CoreCompileInputs.cache
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\obj\Debug\net10.0\LeanBusinessWorkflow.Core.sourcelink.json
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\obj\Debug\net10.0\LeanBusinessWorkflow.Core.dll
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\obj\Debug\net10.0\refint\LeanBusinessWorkflow.Core.dll
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\obj\Debug\net10.0\LeanBusinessWorkflow.Core.pdb
+E:\Hermes_Working\LeanBusinessWorkflow\src\LeanBusinessWorkflow.Core\obj\Debug\net10.0\ref\LeanBusinessWorkflow.Core.dll
